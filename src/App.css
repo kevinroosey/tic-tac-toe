@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  display:flex;
+  flex-direction:column;
+  margin:0 auto;
+  width: 100%;
+  justify-content: center;
+  top:35%;
+  position: absolute;
+}
+
+.Board {
+  display:flex;
+  flex-direction:row;
+  margin:0 auto;
+  width: 100%;
+  justify-content: center;
+  top:35%;
+  position: absolute;
+}
+
+.status{
+  display:flex;
+  flex-direction: row;
+  margin:0 auto;
+  width: 100%;
+  justify-content: center;
+  top:35%;
+  margin-top:5%;
+  position: absolute;
+}
+
+
+
+.cell {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
